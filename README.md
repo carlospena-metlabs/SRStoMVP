@@ -85,14 +85,7 @@ This skill analyzes your requirements and creates a structured specification inc
 - Data models
 - API endpoints
 
-**Example:**
-```
-/spec
 
-"I want to build a SaaS dashboard for tracking customer subscriptions.
-Users can sign up, view their subscription status, upgrade/downgrade plans,
-and see billing history."
-```
 
 ---
 

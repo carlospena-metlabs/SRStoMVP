@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Task",
+      "Bash(*)",
+      "mcp__plugin_playwright_playwright__*",
+      "mcp__plugin_figma_figma__*",
+      "mcp__plugin_context7_context7__*",
+      "Skill(*)",
+      "WebFetch(domain:www.figma.com)"
+    ],
+    "deny": [
+      "Bash(git push*)",
+      "Bash(git push --force*)",
+      "Bash(gh pr create*)",
+      "Bash(gh pr merge*)",
+      "Bash(gh issue create*)",
+      "Bash(gh api *)",
+      "Bash(ssh*)",
+      "Bash(scp*)",
+      "Bash(rsync*)",
+      "WebFetch"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
+}
